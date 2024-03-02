@@ -1,10 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './index.css'
-import Home from './pages/Home.jsx'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Home from "./pages/Home.jsx";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Home/>
-  </React.StrictMode>,
-)
+    <div className="font-inter">
+      <Home />
+    </div>
+  </React.StrictMode>
+);
