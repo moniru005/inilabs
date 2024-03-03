@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import Connect from "../components/Connect";
 import Feature from "../components/Feature";
 import HybridWork from "../components/HybridWork";
 import Navbar from "../components/Navbar";
@@ -12,6 +13,7 @@ const Home = () => {
         <Trusted/>
         <Feature/>
         <HybridWork/>
+        <Connect/>
         </>
     );
 };

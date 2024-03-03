@@ -7,7 +7,7 @@ const HybridWork = () => {
             <div className="w-full lg:w-[450px] flex flex-col justify-start">
                 <h1 className="text-3xl lg:text-5xl font-bold ">Work together, wherever you work</h1>
                 <p className="pt-4 pb-8">In the office, remote, or a mix of the two, with Miro, your team can connect, collaborate, and co-create in one space no matter where you are.</p>
-                <p>Learn more →</p>
+                <p className="text-[#4262FF]">Learn more →</p>
             </div>
             {/* right */}
             <div className="">
