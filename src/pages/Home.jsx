@@ -3,6 +3,7 @@ import BuiltTeams from "../components/BuiltTeams";
 import BuiltWork from "../components/BuiltWork";
 import Connect from "../components/Connect";
 import Feature from "../components/Feature";
+import Footer from "../components/Footer";
 import HybridWork from "../components/HybridWork";
 import Navbar from "../components/Navbar";
 import Testimonials from "../components/Testimonials";
@@ -22,6 +23,7 @@ const Home = () => {
         <BuiltWork/>
         <BuiltTeams/>
         <Testimonials/>
+        <Footer/>
         </>
     );
 };
