@@ -4,6 +4,7 @@ import Feature from "../components/Feature";
 import HybridWork from "../components/HybridWork";
 import Navbar from "../components/Navbar";
 import Trusted from "../components/Trusted";
+import WorkWays from "../components/WorkWays";
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
         <Feature/>
         <HybridWork/>
         <Connect/>
+        <WorkWays/>
         </>
     );
 };
