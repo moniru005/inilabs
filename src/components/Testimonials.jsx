@@ -4,7 +4,7 @@ import client3 from "../assets/images/client3.png";
 
 const Testimonials = () => {
   return (
-    <div className="lg:w-[1120px] mx-auto">
+    <div className="lg:w-[1120px] mx-auto pb-16">
       <div>
         <h1 className="text-3xl lg:text-5xl font-bold text-center">
           Loved by the world&apos;s best teams

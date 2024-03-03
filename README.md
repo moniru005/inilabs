@@ -17,11 +17,12 @@ Project Link: https://github.com/moniru005/inilabs
 
 ## Run Locally
 
-
-
 To get started with INILABS locally, follow these steps:
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies using npm install.
 4. Start the development server using npm run dev.
 5. Access INILABS in your browser at http://localhost:5173.
+
+
+
