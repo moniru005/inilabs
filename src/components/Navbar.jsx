@@ -1,6 +1,6 @@
 import { IoChevronDown } from "react-icons/io5";
 import { FaAlignJustify, FaTimes } from "react-icons/fa";
-import { CiGlobe } from "react-icons/ci";
+import { IoGlobeOutline } from "react-icons/io5";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 
 
@@ -75,7 +75,7 @@ const Navbar = () => {
       <div className="navbar-end pr-2 lg:pr-0">
       <div className="hidden lg:flex flex-row justify-center items-center gap-3">
         <div className="flex flex-row items-center gap-1">
-          <CiGlobe />
+          <IoGlobeOutline className="text-xl border-black" />
           <p>EN</p>
         </div>
         
