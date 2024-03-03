@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import BuiltWork from "../components/BuiltWork";
 import Connect from "../components/Connect";
 import Feature from "../components/Feature";
 import HybridWork from "../components/HybridWork";
@@ -16,6 +17,7 @@ const Home = () => {
         <HybridWork/>
         <Connect/>
         <WorkWays/>
+        <BuiltWork/>
         </>
     );
 };
