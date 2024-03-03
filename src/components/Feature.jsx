@@ -171,7 +171,7 @@ const Feature = () => {
         </div>
         {/* sign up button */}
         <div className="py-6 flex justify-center">
-            <button className="btn rounded-full bg-[#4262FF] text-white py-1 px-4">Sign up free →</button>
+            <button className="btn rounded-full bg-[#4262FF] text-white py-1 px-6">Sign up free →</button>
         </div>
       </div>
     </>

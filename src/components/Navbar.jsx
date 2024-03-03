@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navbar = (
     <>
-      <div className="flex flex-col lg:flex-row md:flex-row justify-center items-center">
+      <div className="flex flex-col lg:flex-row md:flex-row justify-center items-center font-semibold">
         <li>
           <button className="flex flex-row justify-center items-center">
             <span>Product</span>
@@ -43,11 +43,11 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar bg-none lg:max-w-[1380px] h-[90px] shadow-sm mx-auto text-[#050038]">
-      {/* Start */}
+    <div className="navbar bg-none lg:max-w-[1380px] h-[90px] shadow-sm mx-auto text-[#050038] lg:px-6">
+      {/* Left Side */}
       <div className="nav navbar-start">
         {/* Logo */}
-        <div className="flex flex-col justify-center items-center">
+        <div className="pl-4 lg:pl-0 flex flex-col justify-center items-center">
           <a
             href="#"
             className="mr-4 block cursor-pointer py-1.5 font-sans text-sm font-normal leading-normal text-inherit antialiased"
@@ -71,18 +71,20 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1 hidden lg:flex">{navbar}</ul>
       </div>
 
-      {/* End */}
+      {/* Right Side */}
       <div className="navbar-end pr-2 lg:pr-0">
-      <div className="hidden lg:flex flex-row justify-center items-center gap-3">
-        <div className="flex flex-row items-center gap-1">
+      <div className="lg:flex flex-row justify-center items-center gap-3">
+        <div className="font-semibold text-sm hidden lg:flex flex-row justify-center items-center gap-3">
+        <div className="flex flex-row items-center gap-1 ">
           <IoGlobeOutline className="text-xl border-black" />
           <p>EN</p>
         </div>
         
           <p>Contact Sales</p>
           <p>Login</p>
+        </div>
         
-        <button className="btn rounded-full bg-[#4262FF] text-white flex gap-2">
+        <button className="text-sm btn rounded-full bg-[#4262FF] text-white flex gap-2">
             <span>Sign up free</span>
             <HiOutlineArrowLongRight />       
         </button>
