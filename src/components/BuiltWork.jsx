@@ -37,9 +37,9 @@ const BuiltWork = () => {
             <div className="w-full lg:w-4/12 flex flex-col justify-start pt-6">
               <h1 className="text-xl">Brainstorming</h1>
               <p className="pt-4 pb-8">
-                In the office, remote, or a mix of the two, with Miro, your team
-                can connect, collaborate, and co-create in one space no matter
-                where you are.
+                Unleash creative ideas and build on them with the help of sticky
+                notes, images, mind maps, videos, drawing capabilities — the
+                list goes on.
               </p>
               <p className="text-[#4262FF]">Learn more →</p>
             </div>

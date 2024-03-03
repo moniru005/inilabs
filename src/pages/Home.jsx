@@ -1,4 +1,5 @@
 import Banner from "../components/Banner";
+import BuiltTeams from "../components/BuiltTeams";
 import BuiltWork from "../components/BuiltWork";
 import Connect from "../components/Connect";
 import Feature from "../components/Feature";
@@ -18,6 +19,7 @@ const Home = () => {
         <Connect/>
         <WorkWays/>
         <BuiltWork/>
+        <BuiltTeams/>
         </>
     );
 };
