@@ -1,6 +1,6 @@
 const Trusted = () => {
   return (
-    <div className="lg:max-w-[1440px] py-16 px-4 lg:px-40 mx-auto">
+    <div className="lg:max-w-[1440px] pt-24 pb-16 px-4 lg:px-40 mx-auto">
       <div className="lg:h-[164px] lg:w-full">
         <h1 className="text-center text-[#05003866] font-normal text-lg">Trusted by 45M+ users</h1>
         <div className="flex flex-wrap lg:flex-row justify-center lg:gap-8 w-full lg:h-[92px] py-8">
